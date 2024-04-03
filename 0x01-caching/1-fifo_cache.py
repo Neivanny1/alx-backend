@@ -5,6 +5,7 @@ FIFOCache module
 
 from base_caching import BaseCaching
 
+
 class FIFOCache(BaseCaching):
     """
     FIFOCache inherits from BaseCaching
@@ -16,7 +17,7 @@ class FIFOCache(BaseCaching):
         super().__init__()
 
     def put(self, key, item):
-        """ 
+        """
         Add an item in the cache
         """
         if key is not None and item is not None:
