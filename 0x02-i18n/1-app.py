@@ -27,7 +27,7 @@ babel = Babel(app)
 
 
 @app.route('/')
-def get_index() -> str:
+def get_index():
     """
     The home/index page.
     """
